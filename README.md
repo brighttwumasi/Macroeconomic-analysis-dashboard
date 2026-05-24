@@ -6,6 +6,14 @@ The project focuses on economic trend analysis, recession interpretation, moneta
 
 ---
 
+# 🎯 Business Problem
+
+Understanding macroeconomic behavior across different economic cycles can be challenging due to differences in indicator scales, reporting frequencies, and economic relationships.
+
+This project was developed to provide an interactive analytical environment for evaluating inflation, unemployment, GDP growth, and monetary policy trends across major recessionary periods.
+
+---
+
 # 🚀 Project Overview
 
 This dashboard analyzes key economic indicators from 2000 to present, including:
@@ -95,11 +103,13 @@ Integrated major economic events directly into dashboard visuals for improved st
 
 # 📂 Repository Structure
 
-```bash
 economic-indicators-powerbi-dashboard/
 │
 ├── README.md
 ├── Dashboard Screenshots/
+│   ├── Overview Dashboard.png
+│   └── Deep Dive Analytics.png
+│
 ├── Dataset/
 ├── PowerBI File/
 └── Documentation/
@@ -129,11 +139,17 @@ economic-indicators-powerbi-dashboard/
 
 ---
 
+# ⚠️ Challenges Solved
+- Handling mixed-frequency economic datasets
+- Comparing indicators with different scales
+- Managing GDP quarterly gaps
+- Building normalized multi-indicator comparisons
+- Implementing recession-focused storytelling
+
 # 📌 Future Enhancements
 
 - Forecasting models
 - Rolling averages
-- Correlation analysis
 - Predictive analytics
 - Enhanced interactivity
 
@@ -144,4 +160,4 @@ economic-indicators-powerbi-dashboard/
 **Bright Marfo Twumasi**
 
 Power BI | Data Analytics | Business Intelligence | Economic Analysis
-Lead Consultant-- Brightdata Consult
+Lead Consultant| Brightdata Consult
